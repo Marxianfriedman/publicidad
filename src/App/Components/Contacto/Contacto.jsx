@@ -6,7 +6,7 @@ function Contacto () {
   const [mensaje, setMensaje] = useState('');
 
   const enviarWhatsApp = () => {
-    const telefono = '573104057097';
+    const telefono = '573223675349';
     const texto = mensaje.trim() !== ''
       ? mensaje.trim()
       : `Hola, podrias brindarme informacion sobre los productos`;
