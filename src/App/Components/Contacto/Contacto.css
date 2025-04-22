@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.contacto {
+    padding: 60px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+  
+  .contacto h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .redes-sociales a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+    background-color: #444;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  /* Colores por red */
+  .redes-sociales a.whatsapp {
+    background-color: #25d366;
+  }
+  
+  .redes-sociales a.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    color: white;
+  }
+  
+  .redes-sociales a.facebook {
+    background-color: #1877f2;
+  }
+  
+  .redes-sociales a.tiktok {
+    background-color: #010101;
+    color: #fff;
+  }
+  
+  .redes-sociales a:hover {
+    transform: scale(1.2);
+  }
+
+  .formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  textarea::placeholder {
+    color: #ccc;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #25d366;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ebe5d;
+  }
+
+  
+  

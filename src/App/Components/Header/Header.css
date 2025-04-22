@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semitransparente */
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.header nav a:hover {
+    color: #00bfff; /* Azul claro al pasar el mouse */
+}
